@@ -1,0 +1,55 @@
+.mb-3 {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 200px;
+  margin: 5px auto;
+  display: block;
+}
+
+.userDiv {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.loader {
+  border-top: 5px solid #ffb900;
+  border-right: 5px solid #f25022;
+  border-left: 5px solid #7fba00;
+  border-bottom: 5px solid #00a4ef;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  animation-name: loader;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+#updateForm {
+  display: none;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.users {
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
