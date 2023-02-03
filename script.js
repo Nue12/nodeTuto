@@ -1,5 +1,5 @@
 const usersTag = document.getElementById("user_div");
-const url = "http://localhost:3000/users";
+const url = "http://nodetuto.onrender.com/users";
 
 let userList;
 const getAllUsers = async () => {
@@ -125,7 +125,7 @@ const fileInput = document.getElementById("files");
 
 const uploadFiles = async () => {
   const formData = new FormData(form);
-  const response = await fetch("http://localhost:3000/fileUpload", {
+  const response = await fetch("http://nodetuto.onrender.com/fileUpload", {
     method: "POST",
     body: formData,
   });
